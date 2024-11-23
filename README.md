@@ -24,26 +24,37 @@ Follow these steps to get the project up and running:
    ```
 
 3. **Create a virtual environment: Run the following command to create a virtual environment**:
+   ```bash
     python -m venv venv
+   ```
 
-4. **Activate the Virtual Environment:**
+5. **Activate the Virtual Environment:**
     **On windows**:
+   ```bash
        venv\Scripts\activate
+   ```
     **On Linux/Mac**:
+   ```bash
         source venv/bin/activate
+   ```
 
-5. **Install Dependencies: Install all necessary dependencies using pip:**
+7. **Install Dependencies: Install all necessary dependencies using pip:**
+   ```bash
     pip install -r requirements.txt
+   ```
 
-6. **Set Up Your OpenAI API Key:**
+9. **Set Up Your OpenAI API Key:**
     **Create a .env file in the root directory of the project.**
     **Inside the .env file, add the following line with your OpenAI API key:**
+   ```bash
         OPENAI_API_KEY=your_actual_api_key
+   ```
 
-7. **Make Sure .env is Added to `.gitignore:**
+11. **Make Sure .env is Added to `.gitignore:**
     **Add .env to .gitignore to prevent it from being pushed to GitHub:**
+    ```bash
         .env
-
+    ```
 ## Running the Application
 
 1. **Run the Streamlit App: After completing the setup, run the following command:**
