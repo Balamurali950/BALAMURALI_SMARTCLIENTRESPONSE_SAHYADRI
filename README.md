@@ -50,7 +50,7 @@ Follow these steps to get the project up and running:
     OPENAI_API_KEY=your_actual_api_key
    ```
 
-7. **Make Sure .env is Added to `.gitignore:**<br/>
+7. **Make Sure .env is Added to `.gitignore`:**<br/>
     Add .env to .gitignore to prevent it from being pushed to GitHub:
     ```bash
     .env
