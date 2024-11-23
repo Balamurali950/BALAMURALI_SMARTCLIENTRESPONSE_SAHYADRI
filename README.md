@@ -18,27 +18,29 @@ These instructions will help you set up the project and run it locally.
 Follow these steps to get the project up and running:
 
 1. **Clone the Repository**:
+   ```bash
    git clone https://github.com/YourGitHubUsername/RepositoryName.git
    cd RepositoryName
+   ```
 
-2. **Create a virtual environment: Run the following command to create a virtual environment**:
+3. **Create a virtual environment: Run the following command to create a virtual environment**:
     python -m venv venv
 
-3. **Activate the Virtual Environment:**
+4. **Activate the Virtual Environment:**
     **On windows**:
        venv\Scripts\activate
     **On Linux/Mac**:
         source venv/bin/activate
 
-4. **Install Dependencies: Install all necessary dependencies using pip:**
+5. **Install Dependencies: Install all necessary dependencies using pip:**
     pip install -r requirements.txt
 
-5. **Set Up Your OpenAI API Key:**
+6. **Set Up Your OpenAI API Key:**
     **Create a .env file in the root directory of the project.**
     **Inside the .env file, add the following line with your OpenAI API key:**
         OPENAI_API_KEY=your_actual_api_key
 
-6. **Make Sure .env is Added to `.gitignore:**
+7. **Make Sure .env is Added to `.gitignore:**
     **Add .env to .gitignore to prevent it from being pushed to GitHub:**
         .env
 
