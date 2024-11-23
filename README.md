@@ -58,7 +58,7 @@ Follow these steps to get the project up and running:
 ## Running the Application
 
 1. **Run the Streamlit App: After completing the setup, run the following command:**
-```bash
-streamlit run main.py
-```
+   ```bash
+   streamlit run main.py
+   ```
 3. **Open the App: Open your web browser and go to http://localhost:8501 to see the app running.**
