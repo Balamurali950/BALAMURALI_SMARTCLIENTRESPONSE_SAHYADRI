@@ -28,7 +28,7 @@ Follow these steps to get the project up and running:
     python -m venv venv
    ```
 
-4. **Activate the Virtual Environment:**
+4. **Activate the Virtual Environment:**<br/>
     **On windows**:
    ```bash
    venv\Scripts\activate
@@ -43,14 +43,14 @@ Follow these steps to get the project up and running:
     pip install -r requirements.txt
    ```
 
-6. **Set Up Your OpenAI API Key:**
-    Create a .env file in the root directory of the project.
+6. **Set Up Your OpenAI API Key:**<br/>
+    Create a .env file in the root directory of the project.<br/>
     Inside the .env file, add the following line with your OpenAI API key:
    ```bash
     OPENAI_API_KEY=your_actual_api_key
    ```
 
-7. **Make Sure .env is Added to `.gitignore:**
+7. **Make Sure .env is Added to `.gitignore:**<br/>
     Add .env to .gitignore to prevent it from being pushed to GitHub:
     ```bash
     .env
