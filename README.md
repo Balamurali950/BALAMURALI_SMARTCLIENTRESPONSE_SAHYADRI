@@ -26,7 +26,7 @@ Follow these steps to get the project up and running:
 
 3. **Activate the Virtual Environment:**
     **On windows**:
-        venv\Scripts\activate
+       <h3> venv\Scripts\activate</h3>
     **On Linux/Mac**:
         source venv/bin/activate
 
