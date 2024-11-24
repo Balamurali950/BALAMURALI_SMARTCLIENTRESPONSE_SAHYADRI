@@ -19,7 +19,7 @@ Follow these steps to get the project up and running:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/YourGitHubUsername/RepositoryName.git
+   git clone https://github.com/Balamurali950/BALAMURALI_SMARTCLIENTRESPONSE_SAHYADRI.git
    cd RepositoryName
    ```
 
