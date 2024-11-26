@@ -65,8 +65,8 @@ Follow these steps to get the project up and running:
 3. **Open the App: Open your web browser and go to http://localhost:8501 to see the app running.**
 
 # Features
-**Dynamic Response Generation**: Generates personalized and professional email responses tailored to client details.
-**Feedback-Driven Improvements**: Adjusts future responses based on user-provided feedback, including mistakes and suggestions.
-**No Fixed Templates**: Responses are generated dynamically, avoiding rigid templates.
-**Secure API Key Management**: Uses a .env file to securely manage the OpenAI API key.
-**Fine-Tuning Capability**: Allows fine-tuning of the model based on feedback logs for improved accuracy.
+1. **Dynamic Response Generation**: Generates personalized and professional email responses tailored to client details.
+2. **Feedback-Driven Improvements**: Adjusts future responses based on user-provided feedback, including mistakes and suggestions.
+3. **No Fixed Templates**: Responses are generated dynamically, avoiding rigid templates.
+4. **Secure API Key Management**: Uses a .env file to securely manage the OpenAI API key.
+5. **Fine-Tuning Capability**: Allows fine-tuning of the model based on feedback logs for improved accuracy.
