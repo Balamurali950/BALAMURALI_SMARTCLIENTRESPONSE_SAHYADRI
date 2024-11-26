@@ -21,7 +21,7 @@ Follow these steps to get the project up and running:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Balamurali950/BALAMURALI_SMARTCLIENTRESPONSE_SAHYADRI.git
-   cd RepositoryName
+   cd BALAMURALI_SMARTCLIENTRESPONSE_SAHYADRI
    ```
 
 3. **Create a virtual environment**: Run the following command to create a virtual environment:
