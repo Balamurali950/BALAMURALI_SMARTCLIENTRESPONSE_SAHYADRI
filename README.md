@@ -2,7 +2,7 @@
 
 # Smart Client Response
 
-This project generates professional, human-like email responses based on client details using OpenAI's GPT model. The application uses **Streamlit** for the user interface and loads the OpenAI API key securely from a `.env` file.
+This project generates professional, human-like email responses based on client details using OpenAI's GPT model. The application uses **Streamlit** for the user interface and securely loads the OpenAI API key from a `.env` file. It incorporates dynamic adjustments based on user feedback for iterative improvement.
 
 ## Getting Started
 
@@ -12,6 +12,7 @@ These instructions will help you set up the project and run it locally.
 
 1. **Python 3.7 or higher** is required. You can download it from [python.org](https://www.python.org/downloads/).
 2. **OpenAI API Key**: You'll need an API key from OpenAI. You can create one at [OpenAI](https://platform.openai.com/account/api-keys).
+3. **Git**: Ensure Git is installed. Download from [git](git-scm.com).
 
 ### Installation Steps
 
@@ -23,12 +24,12 @@ Follow these steps to get the project up and running:
    cd RepositoryName
    ```
 
-3. **Create a virtual environment: Run the following command to create a virtual environment**:
+3. **Create a virtual environment**: Run the following command to create a virtual environment:
    ```bash
     python -m venv venv
    ```
 
-4. **Activate the Virtual Environment:**<br/>
+4. **Activate the Virtual Environment**:<br/>
     **On windows**:
    ```bash
    venv\Scripts\activate
@@ -38,12 +39,12 @@ Follow these steps to get the project up and running:
    source venv/bin/activate
    ```
 
-5. **Install Dependencies: Install all necessary dependencies using pip:**
+5. **Install Dependencies**: Install all necessary dependencies using pip:
    ```bash
     pip install -r requirements.txt
    ```
 
-6. **Set Up Your OpenAI API Key:**<br/>
+6. **Set Up Your OpenAI API Key**:<br/>
     Create a .env file in the root directory of the project.<br/>
     Inside the .env file, add the following line with your OpenAI API key:
    ```bash
